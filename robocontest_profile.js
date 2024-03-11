@@ -10,8 +10,7 @@
 
 
 function main(){
-  const q = "div.row:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)"
-  const div = document.querySelector(q);
+  const div = document.querySelector('[class*="mt-1"]').parentElement.parentElement
 
   const title = div.children[0];
 
@@ -72,13 +71,3 @@ function main(){
 }
 
 window.onload = () => main();
-
-
-
-
-
-
-
-
-
-
