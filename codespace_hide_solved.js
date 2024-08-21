@@ -8,7 +8,6 @@
 // @description 20.05.2024, 19:32:13
 // ==/UserScript==
 
-
 function view(){
   const h2 = document.querySelector(".lead")
 
@@ -37,8 +36,6 @@ function myfunk(){
 
       console.log(itm)
     }
-
-
   }
 }
 
